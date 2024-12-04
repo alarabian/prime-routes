@@ -8,6 +8,9 @@
   font-family: "Familjen Grotesk", sans-serif !important;
 }
 
+.pageCoverSec.testimonialSec {
+  padding: 250px 0 50px;
+}
 
 html,
 body {
@@ -156,9 +159,9 @@ a {
 
 .pageCoverSec h2 {
   margin: 0;
-  color: #303030;
-  text-transform: uppercase;
-  font-size: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 40px;
 }
 
 .bookNow {
@@ -632,11 +635,71 @@ footer.footer {
   color: #ff681a;
   font-size: 20px;
 }
+
 .getStartedImg {
   position: absolute;
   top: -80px;
 }
+
 /* Get Started Section CSS End */
+
+/* Contact Form Section CSS Start */
+.getTouch input.form-control {
+  border-radius: 0;
+  height: 50px;
+}
+
+.getTouch textarea.form-control {
+  border-radius: 0;
+}
+
+.instagramSec .social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.instagramSec h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.instagramSec .social a img {
+  border-radius: 5px;
+  transition: .8s ease-in-out;
+  overflow: hidden;
+
+}
+
+.instagramSec .social a:hover img {
+  transform: scale(1.1);
+}
+
+
+/* Contact Form Section CSS End */
 
 
 /* Home page CSS End */
+
+
+/* Contact page CSS Start */
+.contactDetail {
+  background: azure;
+  padding: 30px;
+}
+
+
+.detailCard {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.detailCard .icon svg {
+  color: #3f4399;
+  font-size: 40px;
+}
+.detailCard .text p{
+  margin: 0;
+}
+/* Contact page CSS End */
