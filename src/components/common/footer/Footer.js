@@ -58,7 +58,7 @@ const Footer = () => {
                     <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="/">Who we Are</Link>
+                    <Link href="/about">Who we Are</Link>
                   </li>
                   <li>
                     <Link href="/">Destinations</Link>
@@ -67,7 +67,7 @@ const Footer = () => {
                     <Link href="/">Thematic Journeys</Link>
                   </li>
                   <li>
-                    <Link href="/">Contact Us</Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                   <li>
                     <Link href="/">Our Blogs</Link>

@@ -12,7 +12,7 @@ const Header = () => {
       <header className="header">
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
-            <Link href="/" classname="navbar-brand mainLogo">
+            <Link href="/" className="navbar-brand mainLogo">
               <Image
                 src="/assets/images/logo.png"
                 alt="Prime Routes"
@@ -42,7 +42,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/about">
                     Who we are
                   </a>
                 </li>
@@ -84,7 +84,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/contact">
                     Contact Us
                   </a>
                 </li>
@@ -93,8 +93,8 @@ const Header = () => {
 
             <div className="loginPart">
               <div className="loginItem">
-                <Link href={"/login"} className="login">
-                  Book Now
+                <Link href={"/payonline"} className="login">
+                  Pay Online
                 </Link>
               </div>
             </div>
