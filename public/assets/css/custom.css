@@ -1,0 +1,642 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Familjen Grotesk", sans-serif !important;
+}
+
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0 60px !important;
+}
+
+.sectionSpace {
+  padding: 60px 0;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.loadMoreButton {
+  background: #303030;
+  color: #fff;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.bgCover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a,
+span {
+  display: inline-block;
+  color: #1e1e1e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e1e1e;
+}
+
+.slick-dots li button:before {
+  border: 2px solid #ff681a;
+  border-radius: 50%;
+  opacity: 1 !important;
+  line-height: 15px !important;
+  color: #ff681a !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #1e1e1e !important;
+}
+
+a {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+.sectionTitle {
+  margin-bottom: 30px;
+}
+
+.sectionTitle h2 {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.boxCard {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #c7c8c9;
+}
+
+.bgGray {
+  background-color: #f7f7f7;
+}
+
+/* width */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+/*Track */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #07152d;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #ec5b24;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.pageCoverSec {
+  background: #f7f7f7;
+  padding: 20px 0;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.pageCoverSec h2 {
+  margin: 0;
+  color: #303030;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.bookNow {
+  background: #ff681a;
+  padding: 11px 36px;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 30px;
+}
+
+/* Header css start */
+
+nav.navbar.navbar-expand-lg {
+  position: fixed;
+  top: 10px;
+  width: 98%;
+  left: 10px;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+nav.navbar.navbar-expand-lg .container-fluid {
+  padding: 0 10px !important;
+}
+
+.navbar-nav.menuCard .nav-item .nav-link {
+  color: #8b8b8b;
+  padding: 0px 15px;
+  font-size: 17px;
+}
+
+.navbar-nav.menuCard .nav-item .nav-link:hover {
+  color: #ff681a;
+}
+
+.navbar-nav.menuCard .nav-item .nav-link.active {
+  color: #ff681a;
+  text-decoration: underline !important;
+}
+
+.loginPart {
+  display: flex;
+  column-gap: 10px;
+}
+
+.loginPart .loginItem a {
+  padding: 10px 16px;
+  background: #ff681a;
+  border: 1px solid #ff681a;
+  border-radius: 30px;
+  font-size: 15px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+
+
+/* Header css End */
+/* Footer css Start */
+footer.footer {
+  background: #1c1c1c;
+}
+
+.footerWidget>ul {
+  column-count: 2;
+  padding: 0;
+}
+
+.footerWidget h4,
+.footerWidget p {
+  color: #fff;
+}
+
+.footerWidget>ul li a {
+  color: #fff;
+  line-height: 40px;
+}
+
+.footerWidget .social ul {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.footerWidget .social ul li a {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+
+.copyright p {
+  color: #fff;
+  margin: 0;
+}
+
+.copyright {
+  margin-top: 80px;
+}
+
+/* Footer css End */
+
+
+/* Home page CSS End */
+/* Banner Section CSS Start */
+
+
+.bannerSection {
+  position: relative;
+}
+
+
+.bannerSec {
+  position: relative;
+}
+
+.bannerContent {
+  z-index: 1;
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+.bannerContent h6 {
+  color: #fff;
+  font-size: 26px;
+  font-family: "Rochester", cursive !important;
+}
+
+.bannerContent h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.bannerContent p {
+  color: #fff;
+}
+
+/* Banner Section CSS End */
+
+/* About Section CSS Start */
+.aboutImg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutImg img:nth-child(2) {
+  transform: rotate(10deg);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.aboutContent {
+  padding: 40px 50px;
+}
+
+.aboutContent h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.aboutContent p {
+  font-size: 20px;
+}
+
+.aboutContent ul {
+  padding: 0;
+  margin: 40px 0;
+  column-count: 2;
+}
+
+.aboutContent ul li p {
+  font-size: 17px;
+}
+
+/* About Section CSS End */
+
+
+/* BreathCity Section CSS Start */
+.cityTitle h3 {
+  font-size: 60px;
+}
+
+.cityTitle h6 {
+  color: #ff681a;
+  font-size: 20px;
+}
+
+.cityTitle p {
+  font-size: 19px;
+}
+
+.cityTitle {
+  margin-bottom: 40px;
+}
+
+.cityFigure {
+  display: flex;
+  column-gap: 30px;
+}
+
+.cityFigure img {
+  border-radius: 5px;
+}
+
+.cityFigure1 {
+  position: relative;
+}
+
+.cityFigure1 .watch {
+  position: absolute;
+  left: -30px;
+  top: 40px;
+  background: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 18px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cityFigure1 .watch span {
+  width: 35px;
+  height: 35px;
+  background: #ff681a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.cityFigure1 img {
+  border-radius: 5px;
+}
+
+.cityTitle h3 {
+  font-size: 60px;
+}
+
+.cityTitle h6 {
+  color: #ff681a;
+  font-size: 20px;
+}
+
+.cityTitle p {
+  font-size: 19px;
+}
+
+.cityTitle {
+  margin-bottom: 40px;
+}
+
+.cityFigure {
+  display: flex;
+  column-gap: 30px;
+}
+
+.cityFigure img {
+  border-radius: 5px;
+}
+
+.cityFigure1 {
+  position: relative;
+}
+
+.cityFigure1 .watch {
+  position: absolute;
+  left: -30px;
+  top: 40px;
+  background: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 18px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cityFigure1 .watch span {
+  width: 35px;
+  height: 35px;
+  background: #ff681a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.cityFigure1 img {
+  border-radius: 5px;
+}
+
+.numbers {
+  position: absolute;
+  top: 40px;
+  right: -10px;
+}
+
+.numbers ul li {
+  background: #ff681a;
+  margin-bottom: 4px;
+  padding: 10px 30px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 18px;
+}
+
+.numbers ul li span {
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+
+/* BreathCity Section CSS End */
+
+/* Destination Section CSS Start */
+.destinationItem {
+  position: relative;
+  padding: 0 20px;
+}
+
+.destinationItem img {
+  border-radius: 5px;
+}
+
+.destinationItem .bookNow {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  background-color: #63ab45;
+}
+
+.destinationItem p {
+  font-size: 17px;
+  height: 60px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* Destination Section CSS End */
+
+
+/* testimonialSec Section CSS Start */
+.testimonialSec {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 0;
+}
+
+.testimonialTitle h2 {
+  font-size: 50px;
+}
+
+.customerContent {
+  margin-top: 40px;
+}
+
+.customerContent .content {
+  color: #fff;
+}
+
+.customerContent .content p {
+  font-size: 18px;
+}
+
+.customerContent .content span {
+  color: #ff681a;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.customerContent ul.slick-dots {
+  text-align: left;
+}
+
+/* testimonialSec Section CSS End */
+
+
+/* latest blog Section CSS start */
+
+
+.blogItem {
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+}
+
+.blogItem .content {
+  padding: 10px;
+}
+
+.blogItem .content h4 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.blogItem .content p {
+  font-size: 18px;
+}
+
+.blogItem .content .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.blogItem .content .footer .date {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.blogItem .content .footer a {
+  color: #ff681a;
+  text-decoration: underline !important;
+}
+
+.blogItem .figure img {
+  border-radius: 10px;
+}
+
+/* latest blog Section CSS End */
+
+
+/* Get Started Section CSS Start */
+.row.getStarted {
+  background: #ff681a;
+  padding: 30px;
+  position: relative;
+  bottom: -30px;
+}
+
+.getStartedText h3 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.getStartedText p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.getStartedText a {
+  background: #fff;
+  padding: 10px 30px;
+  margin-top: 30px;
+  color: #ff681a;
+  font-size: 20px;
+}
+.getStartedImg {
+  position: absolute;
+  top: -80px;
+}
+/* Get Started Section CSS End */
+
+
+/* Home page CSS End */
