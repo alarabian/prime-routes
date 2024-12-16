@@ -59,7 +59,7 @@ const Testimonial = () => {
                 <Slider {...settings}>
                   {data.map((item) => {
                     return (
-                      <div className="content">
+                      <div className="content" key={item.id}>
                         <span>{item.name}</span>
                         <p>{item.desc}</p>
                       </div>

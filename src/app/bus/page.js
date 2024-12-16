@@ -1,12 +1,12 @@
+import BusComp from '@/components/bus/BusComp'
 import PageCover from '@/components/common/cover/PageCover'
-import TermsUse from '@/components/terms-of-use/TermsUse'
 import React from 'react'
 
 const page = () => {
   return (
     <>
-      <PageCover title="user agreement" />
-      <TermsUse />
+      <PageCover title={"Bus List"} url={"/assets/images/bus-breadcrumb.jpg"} />
+      <BusComp />
     </>
   )
 }

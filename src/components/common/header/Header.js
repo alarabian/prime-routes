@@ -37,14 +37,14 @@ const Header = () => {
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 menuCard">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link className="nav-link active" aria-current="page" href="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
+                  <Link className="nav-link" href="/about">
                     Who we are
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item dropdown">
@@ -59,34 +59,34 @@ const Header = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Action
-                      </a>
+                      <Link className="dropdown-item" href="/package">
+                        Delhi
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Another action
-                      </a>
+                      <Link className="dropdown-item" href="/package">
+                        Bangalore
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Something else here
+                      <a className="dropdown-item" href="/package">
+                        Mumbai
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" href="/flight">
                     Thematic Journeys
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/contact">
+                  <Link className="nav-link" href="/contact">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

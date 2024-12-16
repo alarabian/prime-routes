@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
 
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,6 +18,10 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+.bgGray {
+  background-color: #e4ebf1;
 }
 
 ul {
@@ -39,11 +45,11 @@ ul {
 }
 
 .loadMoreButton {
-  background: #303030;
+  background: #2c3192;
+  border-radius: 5px;
   color: #fff;
   border: 0;
   padding: 10px 20px;
-  border-radius: 50px;
   display: flex;
   align-items: center;
   column-gap: 10px;
@@ -116,9 +122,7 @@ p {
   border: 1px solid #c7c8c9;
 }
 
-.bgGray {
-  background-color: #f7f7f7;
-}
+
 
 /* width */
 body::-webkit-scrollbar {
@@ -132,7 +136,7 @@ body::-webkit-scrollbar-track {
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
-  background: #07152d;
+  background: #2c3192;
 }
 
 /* Handle on hover */
@@ -233,7 +237,9 @@ footer.footer {
   padding: 0;
 }
 
-.footerWidget h4,
+.footerWidget h4{
+  color: #ff681a;
+}
 .footerWidget p {
   color: #fff;
 }
@@ -530,7 +536,6 @@ footer.footer {
 .testimonialSec {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   padding: 80px 0;
 }
 
@@ -695,11 +700,1531 @@ footer.footer {
   align-items: center;
   column-gap: 20px;
 }
+
 .detailCard .icon svg {
   color: #3f4399;
   font-size: 40px;
 }
-.detailCard .text p{
+
+.detailCard .text p {
   margin: 0;
 }
+
 /* Contact page CSS End */
+
+
+/* Hotel page CSS Start */
+.hotelContent .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.hotelContent .footer p {
+  margin: 0;
+  font-size: 30px;
+}
+
+.hotelContent .footer a {
+  color: #ff681a;
+  font-size: 22px;
+  text-decoration: underline !important;
+  ;
+}
+
+.hotelContent .review {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.hotelContent .review .rating svg {
+  color: #ff681a;
+}
+
+.hotelItems {
+  margin-bottom: 30px;
+}
+
+.hotelContent {
+  padding: 30px 0;
+}
+
+.hotelFigure img {
+  border-radius: 5px;
+}
+
+.checkAvailability .form-group {
+  background: #e4ebf1;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.checkAvailability .form-group label {
+  color: #8f8f8f;
+  margin-bottom: 5px;
+}
+
+.checkAvailability .form-group input {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.checkAvailability .form-group select {
+  border: 0;
+}
+
+.hotelFilter h4 {
+  margin-bottom: 15px;
+}
+
+.facility .form-check {
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: #8f8f8f;
+}
+
+.btn.commonBtn {
+  border: 2px solid #1e1e1e;
+  margin-top: 20px;
+  padding: 8px 0;
+  font-size: 20px;
+  color: #1e1e1e;
+  width: 100%;
+}
+
+/* Hotel page CSS End */
+
+
+/* Hotel Detail page CSS Start */
+.rating svg {
+  color: #ff681a;
+}
+
+.shortInfo .review {
+  display: flex;
+  column-gap: 10px;
+}
+
+.shortInfo ul {
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.shortInfo ul li {
+  display: flex;
+  column-gap: 10px;
+  font-size: 25px;
+  align-items: center;
+}
+
+.shortInfo ul li .text p {
+  margin: 0;
+}
+
+.roomView {
+  margin-bottom: 50px;
+}
+
+.bigView {
+  position: relative;
+}
+
+.bigView .viewPlayer {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.bigView .viewPlayer span {
+  background: #fff;
+  display: inline-flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-right: 10px;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.smallView img {
+  margin-bottom: 4px;
+}
+
+.aboutRoomSec .title h4 span {
+  text-decoration: line-through;
+  font-weight: 100;
+  padding: 0 10px;
+  color: #2c3192;
+}
+
+.aboutRoomSec .title p {
+  font-size: 22px;
+}
+
+.aboutRoomSec .title {
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid#dee2e6;
+}
+
+.aboutRoomSec .body p {
+  color: #dee2e6;
+  font-size: 20px;
+}
+
+.amenities ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.amenities ul li {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid#dee2e6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 20px;
+}
+
+.amenities {
+  margin: 30px 0;
+}
+
+.amenities h4 {
+  margin-bottom: 20px;
+}
+
+.hotelRules ul {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.hotelRules ul li {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.providerDetails {
+  border: 1px solid#dee2e6;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.providerDetails ul {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.providerDetails ul li {
+  line-height: 40px;
+  border-bottom: 1px solid#dee2e6;
+}
+
+.providerDetails .chat span {
+  background: #ff681a;
+  padding: 6px 10px;
+  border-radius: 30px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.homeDetailBody {
+  padding-right: 50px;
+}
+
+/* Hotel Detail page CSS End */
+
+
+/* Package page CSS Start */
+.packageText {
+  padding: 30px;
+  background-color: #f1f1f1;
+}
+
+.packageList ul {
+  padding: 0;
+  display: flex;
+  column-gap: 20px;
+}
+
+.packageTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.packageTitle .pack h5,
+.packageTitle .pack p {
+  margin: 0;
+}
+
+.packageView {
+  margin-top: 40px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.packageView a {
+  background: #2c3192;
+  padding: 6px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.packageList ul li svg {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.PackageEnquiry {
+  padding: 15px;
+}
+
+.PackageEnquiry h4 {
+  margin-bottom: 10px;
+}
+
+.PackageEnquiry .form-group input {
+  height: 45px;
+}
+
+.packageDetailCard p {
+  font-size: 18px;
+}
+
+.packageDetailCard h3 {
+  margin-bottom: 30px;
+}
+
+/* Package page CSS End */
+
+/* Related Package CSS Start */
+.relatedItem a {
+  position: relative;
+}
+
+.relatedItem a img {
+  border-radius: 10px;
+  transition: .8s ease-in-out;
+}
+
+.relatedItem a h4 {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: #fff;
+  z-index: 1;
+}
+
+.relatedItem a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 99%;
+  height: 100%;
+  background: #111;
+  opacity: .3;
+  border-radius: 10px;
+}
+
+.relatedItem a:hover img {
+  transform: scale(1.1);
+}
+
+.relatedItem a:hover:after {
+  opacity: .8;
+}
+
+/* Related Package CSS End */
+
+/* Flight page CSS Start */
+.travelBooking {
+  box-shadow: 0px 4px 24px 0px rgba(194, 194, 194, 0.25);
+  background-color: #fff;
+  padding: 20px;
+}
+
+.trip ul {
+  display: flex;
+  column-gap: 20px;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.trip ul li {
+  color: #fff;
+}
+
+.trip ul li:first-child {
+  background: white;
+  padding: 0 10px;
+  border-radius: 0;
+  color: #ec5b24;
+}
+
+.trip ul li .form-check {
+  margin: 0;
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+  min-height: 30px;
+}
+
+.trip ul li .form-check label {
+  line-height: 15px;
+  font-size: 14px;
+  color: #303030;
+}
+
+.specialFare {
+  border-radius: 0;
+  margin-top: 10px;
+  border: 1px solid #ec5b24;
+  display: flex;
+  column-gap: 20px;
+  width: 56%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7px;
+}
+
+.specialFare p {
+  margin: 0;
+  color: #303030;
+  font-size: 15px;
+  padding-left: 17px;
+}
+
+.specialFare ul {
+  display: flex;
+  column-gap: 20px;
+  background-color: #ec5b24;
+  border-radius: 0;
+  padding: 5px 10px 5px 20px;
+  color: #fff;
+  margin: 0;
+
+
+}
+
+.specialFare ul li {
+  font-size: 14px;
+}
+
+.specialFare ul li .form-check {
+  margin: 0;
+}
+
+form.hotelForm {
+  display: flex;
+  background: #fff;
+  border: 1px solid #ddd;
+  align-items: center;
+  justify-content: space-between;
+  /* column-gap: 10px; */
+  width: 90%;
+
+}
+
+form.hotelForm .form-select,
+form.hotelForm .form-control {
+  font-size: 14px;
+  border-radius: 0;
+  border: 0;
+  padding: 10px;
+  width: 200px;
+  height: 64px;
+}
+
+form.hotelForm .form-group {
+  border-right: 1px solid #dfe2e6;
+}
+
+form.hotelForm .form-group:last-child {
+  border: 0;
+}
+
+form.hotelForm .form-group .searchHotel {
+  background: #ec5b24;
+  padding: 20px;
+  border-radius: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+form.hotelForm .form-group .searchHotel svg {
+  display: none;
+}
+
+form.hotelForm .form-select.name {
+  width: 300px;
+}
+
+form.hotelForm .form-group .dropdown {
+  width: 160px;
+}
+
+form.hotelForm .form-group .dropdown buttn {
+  width: 100%;
+}
+
+form.hotelForm .form-group .dropdown .dropdown-toggle {
+  width: 100%;
+  background: #fff;
+  color: #303030;
+  border-radius: 0;
+  padding: 14px 10px;
+  border: 0;
+  font-size: 14px;
+  height: 66px;
+}
+
+.dropdown-menu.adultPart.show {
+  padding: 12px;
+  border-radius: 0;
+}
+
+.dropdown-menu.adultPart.show ul {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu.adultPart.show ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-menu.adultPart.show ul li .name h5 {
+  margin: 0;
+  font-size: 13px;
+}
+
+.dropdown-menu.adultPart.show ul li .name p {
+  color: #ec5b24;
+  font-size: 12px;
+}
+
+.dropdown-menu.adultPart.show ul li .numberAdd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 5px;
+}
+
+.dropdown-menu.adultPart.show ul li .numberAdd .btn {
+  width: 20px;
+  height: 20px;
+  background: #ec5b24;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  padding: 0;
+}
+
+.dropdown-menu.adultPart.show ul li .numberAdd span {
+  font-weight: bold;
+}
+
+.dropdown-menu.adultPart.show .addRoom {
+  margin: 0;
+  color: #ec5b24;
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid #d2d2d2;
+  padding-top: 5px;
+}
+
+.hotelForm.HotelForm .form-group label {
+  font-size: 14px;
+  text-align: left;
+  display: block;
+  padding-left: 10px;
+}
+
+.interestedFlight {
+  padding: 30px 0;
+}
+
+.interestedFlight h4 {
+  margin-bottom: 20px;
+}
+
+.interestedFlight ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.interestedFlight ul li {
+  border: 1px solid #d0d0d0;
+  padding: 8px 12px;
+  display: flex;
+  column-gap: 14px;
+  align-items: center;
+  width: 23%;
+  border-radius: 5px;
+}
+
+.interestedFlight ul li strong {
+  display: block;
+}
+
+.interestedFlight ul li .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff681a;
+  color: #fff;
+}
+
+.interestedFlight ul li .icon svg {
+  font-size: 20px;
+}
+
+.flightAside .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.flightAside .title span {
+  color: #ff681a;
+  text-decoration: underline;
+}
+
+.flightAside .title h4 {
+  margin: 0;
+}
+
+.flightAside {
+  padding: 20px;
+  border: 1px solid #e4ebf1;
+}
+
+.searchAirline .form-group {
+  position: relative;
+}
+
+.searchAirline .form-group svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 10px;
+}
+
+.searchAirline .form-group input {
+  padding-left: 33px;
+  background-color: #e4ebf1;
+  font-size: 15px;
+}
+
+.searchAirline {
+  margin-bottom: 15px;
+}
+
+.flightAsideGap {
+  padding: 10px 0;
+}
+
+.facility .form-check label {
+  font-size: 15px;
+}
+
+.lightSort {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lightSort {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sortButton .sort button {
+  background: #fff;
+  color: #212529;
+  border-color: #e4ebf1;
+}
+
+.sortButton .sort button strong {
+  padding-right: 10px;
+}
+
+.lightSort .title h5 {
+  margin: 0;
+}
+
+.average {
+  background: #155EEF;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.average .text {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.average .text span {
+  color: #fff;
+}
+
+.average button.btn {
+  background: #fff;
+  border-radius: 30px;
+  padding: 3px 6px;
+  font-size: 15px;
+}
+
+.airlinePart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.airlinePart .seat {
+  border: 1px solid #2c3192;
+  padding: 0 4px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #2c3192;
+}
+
+.airlinePart .item strong {
+  color: #2c3192;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+.dates {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  background: #e4ebf1;
+  padding: 6px 15px;
+}
+
+.hotelContent h3 a {
+  color: #1e1e1e;
+}
+
+/* Flight page CSS End */
+
+/* Flight Detail page CSS Start */
+.flightIntro h4 span {
+  background: #2c3192;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+.flightIntro h4 {
+  margin: 0;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.flightIntro p {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.flightIntro p span {
+  text-decoration: underline;
+  text-decoration-color: #2c3192;
+  font-size: 18px;
+}
+
+.thumbnail {
+  display: flex;
+  column-gap: 5px;
+  margin-top: 5px;
+}
+
+.flightInfo {
+  margin-top: 30px;
+  padding: 30px;
+  border: 1px solid #cfd8e0;
+  background: #e4ebf1;
+}
+
+.flightInfo ul {
+  column-count: 4;
+  padding: 0;
+  margin: 0;
+}
+
+.flightInfo ul li strong {
+  display: block;
+}
+
+.flightInfo ul li {
+  margin-bottom: 10px;
+}
+
+.flightInfo h4 {
+  margin-bottom: 20px;
+}
+
+.flightAbout,
+.flightAmenty {
+  padding: 30px;
+}
+
+.flightAmenty {
+  padding-top: 0;
+}
+
+.amenCard {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.amenItem {
+  width: 32%;
+  margin-bottom: 10px;
+}
+
+.amenItem ul {
+  padding-left: 20px;
+  list-style: auto;
+}
+
+.amenItem ul li {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.amenItem h5 {
+  color: #ff681a;
+  text-decoration: underline;
+}
+
+.flightDetailAside .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: #2c3192;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.cycleCard .cycle {
+  border: 1px solid #cfd8e0;
+  padding: 15px;
+  background: #e4ebf1;
+  margin-bottom: 10px;
+}
+
+.checkFlightAvailable h4 {
+  margin-bottom: 10px;
+}
+
+.cycleCard .cycle p {
+  margin: 0;
+}
+
+.flightDetailAside {
+  padding: 20px;
+  border: 1px solid #cfd8e0;
+}
+
+.flightDetailAside .price span {
+  color: #fff;
+}
+
+.passengerCount {
+  margin: 20px 0;
+}
+
+.passengerCount ul {
+  padding: 0;
+}
+
+.passengerCount ul li {
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.passengerCount ul li span {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Flight Detail page CSS End */
+
+/* Bus page CSS Start */
+form.hotelForm.busForm {
+  width: 60%;
+}
+
+.pageFilter {
+  background: #fff;
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+}
+
+.pageFilter .hotelItem {
+  padding: 10px 0;
+}
+
+.pageFilter .hotelItem.hotelName form input {
+  border-radius: 0;
+  font-size: 14px;
+  height: 45px;
+}
+
+.pageFilter .hotelItem.property .propertyCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  margin-bottom: 6px;
+  color: #8f8f8f;
+}
+
+.pageFilter .hotelItem {
+  padding: 10px 0;
+}
+
+.pageFilter .hotelItem.hotelName form input {
+  border-radius: 0;
+  font-size: 14px;
+  height: 45px;
+}
+
+
+.flightList {
+  padding: 20px 0;
+}
+
+.pageFilter .hotelItem.property .propertyCard svg {
+  color: #cf6609;
+}
+
+.pageFilterItem ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageFilterItem ul li {
+  padding: 10px;
+  background: #2c3192;
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.pageFilterItem.bus ul li svg {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.flightDate {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.flightDate ul {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.flightDate::-webkit-scrollbar {
+  height: 1px;
+}
+
+.flightDate::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.flightDate::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+.flightDate ul li span {
+  display: block;
+  color: #ec5b24;
+}
+
+.flightDate ul li {
+  font-size: 14px;
+
+}
+
+.flightDate {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.flightDate ul li.active {
+  background-color: #f5f5f5;
+  color: #ec5b24;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.flightDate ul li.active span {
+  display: block;
+  color: #ec5b24;
+}
+
+.flightItem {
+  background-color: #fff;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.busListItem .flightDuration {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-right: 1px solid #c7c8c9;
+}
+
+
+.flightItem.bus .brand h5 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.flightItem.bus .brand p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.flightItem.bus .flightDuration {
+  padding: 20px;
+}
+
+
+
+.flightDuration .duration {
+  display: flex;
+  column-gap: 40px;
+  text-align: right;
+  align-items: center;
+  padding: 10px;
+}
+
+.flightDuration .duration .distance hr {
+  margin: 0;
+}
+
+.busListItem .flightPrice {
+  display: block;
+  text-align: center;
+}
+
+.busListItem .flightDuration .duration .time p {
+  margin: 0;
+}
+
+.busListItem .flightFullDetail {
+  padding: 0;
+  box-shadow: none;
+}
+
+.busListItem .flightFullDetail .footer {
+  background-color: #e4ebf1;
+  padding: 5px 20px;
+  margin-top: 0;
+  border-right: 1px solid #c7c8c9;
+}
+
+.busListItem .flightFullDetail .footer .seat ul li {
+  display: flex;
+  align-items: center;
+}
+
+.busListItem .flightFullDetail .footer .seat ul li svg {
+  font-size: 20px;
+}
+
+.busListItem .flightFullDetail .footer .features.before ul li:before {
+  display: none;
+}
+
+.flightTab .nav-tabs .nav-link {
+  border-radius: 0;
+  font-size: 14px;
+  width: 50%;
+  border: 0;
+  color: #ec5b24;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.flightTab .nav-tabs {
+  border-bottom: 2px solid #c7c8c9;
+}
+
+.flightTab .nav-tabs .nav-link.active {
+  border: 0;
+  color: #ec5b24;
+  border-bottom: 2px solid #ec5b24;
+}
+
+.flightTab #nav-tabContent {
+  padding: 10px;
+}
+
+.busSeatCard {
+  border: 1px solid #c7c8c9;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.busSeatCard .main {
+  margin-bottom: 20px;
+}
+
+.busSeatCard .main .smallSeat {
+  padding: 0;
+  margin: 0;
+  column-count: 10;
+}
+
+.busSeatCard .side ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  column-gap: 32px;
+}
+
+.busSeatCard .side ul li {
+  font-size: 25px;
+}
+
+.busSeatCard .main .smallSeat li {
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.busSeatCard .mainSeat {
+  font-size: 25px;
+}
+
+.busSeatCard svg {
+  color: #7a7a7a;
+}
+
+.seatColorMeans ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.seatColorMeans ul li span {
+  font-size: 25px;
+}
+
+.seatColorMeans ul li {
+  font-size: 13px;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.boardingCard {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #c7c8c9;
+  margin-bottom: 15px;
+  padding: 15px 0 15px 15px;
+}
+
+.boardingCard::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+/* Handle */
+.boardingCard::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.featured ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.featured ul li {
+  font-size: 14px;
+  width: 47%;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.featured ul li svg {
+  color: #ec5b24;
+}
+
+.busListItem .tab-content {
+  padding: 20px;
+  border-top: 1px solid #c7c8c9;
+}
+
+.busListItem .tab-content .tabTitle h5 {
+  margin: 0;
+}
+
+.busListItem .tab-content .tabTitle p {
+  font-size: 13px;
+}
+
+.busSeatInfo h5 {
+  font-size: 15px;
+  background-color: #2c3192;
+  display: inline-block;
+
+}
+
+.busSeatInfo h5 {
+  font-size: 13px;
+  background-color: #2c3192;
+  display: inline-block;
+  color: #fff;
+  padding: 4px 10px;
+  font-weight: 300;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+
+
+.flightFullDetail .footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  column-gap: 30px;
+}
+
+.flightFullDetail .footer .seat ul,
+.flightFullDetail .footer .features ul {
+  display: flex;
+  column-gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.busListItem .flightFullDetail .footer .seat ul li {
+  display: flex;
+  align-items: center;
+}
+
+.flightFullDetail .footer .seat ul li {
+  font-size: 13px;
+}
+
+.flightPrice p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ec5b24;
+  margin: 0;
+}
+
+.flightPrice .bookArea {
+  text-align: center;
+}
+
+.flightPrice .bookArea span {
+  font-size: 14px;
+  display: block;
+}
+
+.flightPrice a {
+  background: #2c3192;
+  border: 2px solid #2c3192;
+  padding: 4px 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: .4s ease-in-out;
+}
+
+.flightDuration .duration .distance span {
+  font-size: 14px;
+}
+
+/* Bus page CSS End */
+
+/* Bus Book page CSS Start */
+
+
+.tripDetail ul {
+  padding: 0;
+  border-bottom: 1px dashed #c7c8c9;
+  padding-bottom: 20px;
+  column-count: 3;
+}
+
+.tripDetail ul li span {
+  display: block;
+  font-size: 13px;
+}
+
+.tripDetail ul li strong {
+  font-size: 18px;
+}
+
+.tripDetail .flightDuration {
+  width: 100%;
+  border: 0;
+  display: block;
+}
+
+.tripDetail .flightDuration .duration {
+  justify-content: space-between;
+  padding: 0;
+}
+
+.tripDetail .flightDuration .duration .time p,
+.tripDetail .flightDuration .duration .time h5 {
+  margin: 0;
+}
+
+.PassengerCard .form {
+  display: flex;
+  column-gap: 20px;
+}
+
+.PassengerCard {
+  padding: 20px 0;
+}
+
+.tripContact ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tripContact ul li span {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  color: #303030;
+}
+
+.tripContact ul li {
+  color: #757575;
+}
+
+.tripContact ul li.whats svg {
+  display: block;
+  font-size: 24px;
+  color: #303030;
+}
+
+.benefit ul {
+  padding: 0;
+  display: flex;
+  column-gap: 20px;
+}
+
+.benefit ul li {
+  background: #e3f1ff;
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.benefit ul li span {
+  display: block;
+  color: #0f4fa7;
+}
+
+.PassengerCard h6 {
+  font-size: 13px;
+}
+
+
+.busFareDetail ul {
+  padding: 0;
+  margin: 0;
+}
+
+.busFareDetail ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 33px;
+  font-size: 14px;
+}
+
+.busFareDetail .bePaid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #c7c8c9;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+
+.busFareDetail .bePaid h5,
+.busFareDetail .bePaid p {
+  margin: 0;
+}
+
+.busOffer .form-check {
+  border-bottom: 1px solid #dfdfdf;
+  padding: 10px 20px;
+  padding-left: 35px;
+}
+
+.busOffer .form-check:nth-child(odd) {
+  border: 0;
+}
+
+.busOffer .form-check p {
+  margin: 0;
+}
+
+.getPromo {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.getPromo .icon svg {
+  font-size: 35px;
+  color: #ec5b24;
+}
+
+.getPromo .input {
+  width: 100%;
+}
+
+.getPromo .input .form-control {
+  font-size: 14px;
+  height: 50px;
+  border: 1px dashed #c7c8c9;
+
+}
+
+/* Bus Book page CSS End */
+
+/* galley page CSS Start */
+.galleryTitle h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.galleryTitle h3 span{
+  color: #ff681a;
+}
+.galleryCard {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.galleryItem {
+  position: relative;
+  overflow: hidden;
+
+}
+.galleryItem img{
+  transition: .6s ease-in-out;
+}
+.galleryItem img:hover{
+  transform: scale(1.1);
+}
+.galleryItem .play {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background: #ff681a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #fff;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+/* galley page CSS End */
