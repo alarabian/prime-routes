@@ -1,12 +1,12 @@
 import PageCover from '@/components/common/cover/PageCover'
-import Privacy from '@/components/privacy/Privacy'
+import HotelDetail from '@/components/hotel-detail/HotelDetail'
 import React from 'react'
 
 const page = () => {
   return (
     <>
-      <PageCover title="Privacy" />
-      <Privacy />
+      <PageCover title={"Hotel Detail"} />
+      <HotelDetail />
     </>
   )
 }

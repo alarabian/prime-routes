@@ -52,7 +52,6 @@ const Footer = () => {
             <div className="col-lg-4">
               <div className="footerWidget">
                 <h4>Useful Links</h4>
-
                 <ul>
                   <li>
                     <Link href="/">Home</Link>
@@ -73,13 +72,30 @@ const Footer = () => {
                     <Link href="/">Our Blogs</Link>
                   </li>
                   <li>
-                    <Link href="/">Privacy Policy</Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/">Terms & Conditions</Link>
+                    <Link href="/terms-condition">Terms & Conditions</Link>
                   </li>
                   <li>
-                    <Link href="/">Payment Gateway</Link>
+                    <Link href="/gallery">Gallery</Link>
+                  </li>
+                  <li>
+                    <Link href="/video">Video</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="footerWidget">
+                <h4>Booking</h4>
+                <ul>
+                  <li>
+                    <Link href="/flight">Flight</Link>
+                  </li>
+                  <li>
+                    <Link href="/bus">Bus</Link>
+                  </li>
+                  <li>
+                    <Link href="/hotel">Hotel</Link>
                   </li>
                 </ul>
               </div>
@@ -88,8 +104,8 @@ const Footer = () => {
               <div className="footerWidget">
                 <h4> Address</h4>
                 <p>
-                98B, 2nd Floor, Namberdar Estate, Taimoor Nagar, New Friends Colony, New Delhi-110025
-
+                  98B, 2nd Floor, Namberdar Estate, Taimoor Nagar, New Friends
+                  Colony, New Delhi-110025
                 </p>
               </div>
               <div className="footerWidget">
